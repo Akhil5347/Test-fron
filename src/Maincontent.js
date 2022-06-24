@@ -30,7 +30,7 @@ const [opt,setOption]=useState("")
 
     
 <div className="Content1">
-<form>
+<form className="Content1">
     <label>Blog Writer </label>
   <input type="text"
   required
@@ -49,6 +49,7 @@ const [opt,setOption]=useState("")
         <option>Geetha</option>
         <option>Seetha</option>
     </select>
+    <input type="submit"></input>
 
 </form>
 <p>{title}</p>
